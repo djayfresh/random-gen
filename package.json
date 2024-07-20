@@ -1,0 +1,19 @@
+{
+  "name": "random-gen",
+  "version": "1.0.0",
+  "description": "sudo-random number generator with seed",
+  "main": "random.ts",
+  "scripts": {
+    "test": "ts-node random.test.ts"
+  },
+  "keywords": [
+    "random",
+    "sfc32",
+    "random-seed"
+  ],
+  "author": "djayfresh",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
