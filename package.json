@@ -1,5 +1,5 @@
 {
-  "name": "random-gen",
+  "name": "@djayfresh/random-gen",
   "version": "1.0.0",
   "description": "sudo-random number generator with seed",
   "main": "random.ts",
@@ -15,5 +15,14 @@
   "license": "ISC",
   "dependencies": {
     "ts-node": "^10.9.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djayfresh/random-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/djayfresh/random-gen/issues"
+  },
+  "homepage": "https://github.com/djayfresh/random-gen#readme"
 }
