@@ -11,7 +11,6 @@ export class RandomSFC {
 
     static random(seed?: string, refresh?: boolean): number {
         const lookupSeed = seed || RandomSFC.getLastSeed();
-        console.log("\tSeed:", lookupSeed, "?", seed);
         if (!RandomSFC.randomCache[lookupSeed] || refresh) {
             return RandomSFC.buildRandom(lookupSeed)();
         }
